@@ -7,7 +7,6 @@ import CompositionTreesDiagram from '/img/gitbook-import/assets/image (3) (1).pn
 import CompositionUserControlsDiagram from '/img/gitbook-import/assets/image (8) (2).png';
 import CompositionCollectionControlsDiagram from '/img/gitbook-import/assets/image (8) (3).png';
 
-
 # UI Composition
 
 UI composition is the process you use to create the layouts that your apps require. It allows you to build a complex view from an arrangement of components. The advantages are:

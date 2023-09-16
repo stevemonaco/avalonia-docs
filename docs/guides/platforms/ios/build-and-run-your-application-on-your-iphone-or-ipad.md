@@ -7,6 +7,10 @@ import BuildiOSOpenXcodeScreenshot from '/img/gitbook-import/assets/Screenshot 2
 import BuildiOSCreateXcodeProjectScreenshot from '/img/gitbook-import/assets/image (36).png';
 import BuildiOSSelectProjectOptionsScreenshot from '/img/gitbook-import/assets/image (30).png';
 import BuildiOSSelectAnyDeviceScreenshot from '/img/gitbook-import/assets/image (35).png';
+import BuildiOSAddAdditionalSimulatorsScreenshot from '/img/gitbook-import/assets/image (35).png';
+import BuildiOSProvisionPhoneScreenshot from '/img/gitbook-import/assets/Screenshot 2022-03-17 at 12.19.06.png';
+import BuildiOSSelectDeviceScreenshot from '/img/gitbook-import/assets/image (24) (1).png';
+import BuildiOSChangeBundleIdentifierScreenshot from '/img/gitbook-import/assets/image (18) (2).png';
 
 # How to Build and Run on iPhone or iPad
 
@@ -34,19 +38,19 @@ This has to be done by creating an Xcode app project that has the same `bundle i
 
 6. In the status bar at the top click on the "Any device (arm64)"
 
-<img src='/img/gitbook-import/assets/image (35).png' alt=''/>
+<img src='{BuildiOSSelectAnyDeviceScreenshot}' alt=''/>
 
 7. At the bottom of the list click "Add Additional Simulators..."
 
-<img src='/img/gitbook-import/assets/image (32).png' alt=''/>
+<img src='{BuildiOSAddAdditionalSimulatorsScreenshot}' alt=''/>
 
 8. Click on devices and connect your iPhone or iPad with the USB cable. Xcode will start to provision your phone for development.
 
-<img src='/img/gitbook-import/assets/Screenshot 2022-03-17 at 12.19.06.png' alt=''/>
+<img src='{BuildiOSProvisionPhoneScreenshot}' alt=''/>
 
 9. Select you iPhone or iPad from the device list.
 
-<img src='/img/gitbook-import/assets/image (24) (1).png' alt=''/>
+<img src={BuildiOSSelectDeviceScreenshot} alt=''/>
 
 10. Click the play button and the app will be installed and run on your phone.
 
@@ -54,7 +58,7 @@ If successful you may return to your IDE of choice and open the `info.plist` fil
 
 11. Change the bundle identifier to the same as the one you choose in Xcode in step 3.
 
-<img src='/img/gitbook-import/assets/image (18) (2).png' alt=''/>
+<img src={BuildiOSChangeBundleIdentifierScreenshot} alt=''/>
 
 12. Now edit the `.iOS.csproj` file.
 
